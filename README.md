@@ -268,7 +268,3 @@ cc -std=c99 -Wall -Wextra -pedantic quarry_examples.c -o examples
 ```
 
 During development the code has been checked with GCC under `-std=c99 -Wall -Wextra -pedantic`, with AddressSanitizer and UndefinedBehaviorSanitizer, and with `-DNDEBUG`. Other compilers and platforms have not been tested yet.
-
-## License
-
-Not chosen yet. Add the license text (for example public domain / MIT-0, as stb does) to `quarry.h` and this section before publishing.
