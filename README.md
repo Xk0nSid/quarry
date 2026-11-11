@@ -264,7 +264,7 @@ Define these before including the header in the implementation file:
 There is nothing to build. To compile the examples:
 
 ```sh
-cc -std=c99 -Wall -Wextra -pedantic quarry_examples.c -o examples
+cc -std=c99 -Wall -Wextra -pedantic example.c -o examples
 ```
 
 During development the code has been checked with GCC under `-std=c99 -Wall -Wextra -pedantic`, with AddressSanitizer and UndefinedBehaviorSanitizer, and with `-DNDEBUG`. Other compilers and platforms have not been tested yet.
